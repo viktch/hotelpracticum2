@@ -1,0 +1,23 @@
+<body>
+    <div class="slider">
+        <div><img src="Ladies shoe1.jpeg" alt="Image 1"></div>
+        <div><img src="Jean Shoe.jpeg" alt="Image 2"></div>
+        <div><img src="Kids shoes.jpeg" alt="Image 3"></div>
+        <div><img src="Jean Shoe.jpeg" alt="Image 4"></div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                autoplay: true,
+                dots: true,
+                arrows: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
+            });
+        });
+    </script>
+        </form>
+    </section>
